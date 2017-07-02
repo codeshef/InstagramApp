@@ -8,7 +8,11 @@
                                                              use Parse Server. Parse Server is the open source
                                                              backened.It allows you to have database without 
                                                              managing  all code yourself.Parse server is completely
-                                                             stored in our own server.
+                                                             stored in our own server.For using Parse server we make
+                                                             use of AWS(Amazon web service).
+                                                             
+           Second step:
+            In second step we are going to learn Advanced Parse Technique:
             
             
                  
