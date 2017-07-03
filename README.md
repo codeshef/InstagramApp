@@ -18,7 +18,7 @@
             
             Third step: 
             
-            Advanced Queries:
+            Advanced Queries: In this step we learn about finding data from parse server using parse queries and update that data.
             
             
                  
