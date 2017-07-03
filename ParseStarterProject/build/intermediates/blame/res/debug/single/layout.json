@@ -768,6 +768,10 @@
         "source": "C:\\Users\\robpercival\\Downloads\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
+        "merged": "C:\\Users\\acer\\AndroidStudioProjects\\Instagram\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_list.xml",
+        "source": "C:\\Users\\acer\\AndroidStudioProjects\\Instagram\\ParseStarterProject\\src\\main\\res\\layout\\activity_user_list.xml"
+    },
+    {
         "merged": "C:\\Users\\robpercival\\Downloads\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
         "source": "C:\\Users\\robpercival\\Downloads\\Parse-Server-Starter-Project\\ParseStarterProject\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_expanded_menu_layout.xml"
     },
