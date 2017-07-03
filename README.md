@@ -12,7 +12,13 @@
                                                              use of AWS(Amazon web service).
                                                              
            Second step:
-            In second step we are going to learn Advanced Parse Technique:
+           
+            In second step we are going to learn Advanced Parse Technique: In this step we are learning about the methods to 
+            store data in Parse server and to get data from parse server.
+            
+            Third step: 
+            
+            Advanced Queries:
             
             
                  
