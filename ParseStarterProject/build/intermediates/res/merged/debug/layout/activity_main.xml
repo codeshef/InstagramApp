@@ -9,6 +9,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/backgroundView"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/hint_foreground_material_dark"
@@ -20,7 +21,7 @@
 
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/instaLogo"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:layout_alignParentLeft="true"
@@ -32,7 +33,7 @@
         android:id="@+id/usernameEditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/imageView"
+        android:layout_below="@+id/instaLogo"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="62dp"
         android:ems="10"
@@ -68,13 +69,13 @@
         android:id="@+id/changeSignUpModeTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/signUpButton"
+        android:layout_alignRight="@+id/signUpButton"
+        android:layout_below="@+id/signUpButton"
+        android:layout_marginTop="32dp"
         android:text="or,Login"
         android:textColor="@android:color/holo_blue_dark"
-        android:textSize="24sp"
-        android:layout_below="@+id/signUpButton"
-        android:layout_alignRight="@+id/signUpButton"
-        android:layout_alignEnd="@+id/signUpButton"
-        android:layout_marginTop="32dp" />
+        android:textSize="24sp" />
 
 
 </RelativeLayout>
