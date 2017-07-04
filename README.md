@@ -28,6 +28,20 @@
             
             After LogIn Page we see list of users.
             
+            Sixth step:
+            
+            In this step we learn about importing photos from our camera and share with users.
+            
+            LastStep:
+            
+            In this step we learn about getting user's feed .
+            
+            Yiepiee, Now we are able to build  basic Instagram App .
+            
+            Best Of Luck....
+            
+            
+            
             
                  
              
