@@ -436,7 +436,6 @@ int drawable abc_textfield_search_default_mtrl_alpha 0x7f020039
 int drawable abc_textfield_search_material 0x7f02003a
 int drawable instalogo 0x7f02003b
 int drawable notification_template_icon_bg 0x7f02003c
-int id LogOut 0x7f0c0067
 int id action0 0x7f0c0059
 int id action_bar 0x7f0c0041
 int id action_bar_activity_content 0x7f0c0000
@@ -489,6 +488,7 @@ int id line3 0x7f0c0062
 int id linearLayout 0x7f0c0057
 int id listMode 0x7f0c0009
 int id list_item 0x7f0c002b
+int id logOut 0x7f0c0067
 int id media_actions 0x7f0c005c
 int id middle 0x7f0c0016
 int id multiply 0x7f0c001f

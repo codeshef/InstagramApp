@@ -76,12 +76,13 @@ public class UserListActivity extends AppCompatActivity {
              }else{
                  getPhoto();
              }
-         } else if(item.getItemId() == R.id.LogOut){
+         } else if(item.getItemId() == R.id.logOut){
 
              ParseUser.logOut();
-
              Intent intent = new Intent(getApplicationContext(),MainActivity.class);
              startActivity(intent);
+         }else{
+             getPhoto();
          }
 
         return super.onOptionsItemSelected(item);

@@ -1795,7 +1795,6 @@ containing a value of this type.
         public static final int notification_template_icon_bg=0x7f02003c;
     }
     public static final class id {
-        public static final int LogOut=0x7f0c0067;
         public static final int action0=0x7f0c0059;
         public static final int action_bar=0x7f0c0041;
         public static final int action_bar_activity_content=0x7f0c0000;
@@ -1848,6 +1847,7 @@ containing a value of this type.
         public static final int linearLayout=0x7f0c0057;
         public static final int listMode=0x7f0c0009;
         public static final int list_item=0x7f0c002b;
+        public static final int logOut=0x7f0c0067;
         public static final int media_actions=0x7f0c005c;
         public static final int middle=0x7f0c0016;
         public static final int multiply=0x7f0c001f;

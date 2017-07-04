@@ -8,7 +8,7 @@
 
     <item
         android:title="LogOut"
-        android:id="@+id/LogOut">
+        android:id="@+id/logOut">
     </item>
 
 
