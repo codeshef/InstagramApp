@@ -1,6 +1,10 @@
 [
     {
-        "merged": "/Users/robpercival/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/res/merged/debug/menu/menu_main.xml",
-        "source": "/Users/robpercival/Downloads/Parse-Starter-Project-1.13.0/ParseStarterProject/src/main/res/menu/menu_main.xml"
+        "merged": "C:\\Users\\acer\\AndroidStudioProjects\\Instagram\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\menu\\share_menu.xml",
+        "source": "C:\\Users\\acer\\AndroidStudioProjects\\Instagram\\ParseStarterProject\\src\\main\\res\\menu\\share_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\robpercival\\Downloads\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "C:\\Users\\robpercival\\Downloads\\Parse-Starter-Project-1.13.0\\ParseStarterProject\\src\\main\\res\\menu\\menu_main.xml"
     }
 ]
