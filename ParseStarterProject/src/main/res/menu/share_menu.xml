@@ -4,7 +4,12 @@
     <item
         android:title="Share"
         android:id="@+id/share">
-
     </item>
+
+    <item
+        android:title="LogOut"
+        android:id="@+id/LogOut">
+    </item>
+
 
 </menu>

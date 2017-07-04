@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\acer\AndroidStudioProjects\Instagram\ParseStarterProject\src\main\AndroidManifest.xml:9:1-41:12
+ADDED from C:\Users\acer\AndroidStudioProjects\Instagram\ParseStarterProject\src\main\AndroidManifest.xml:9:1-42:12
 	package
 		ADDED from C:\Users\acer\AndroidStudioProjects\Instagram\ParseStarterProject\src\main\AndroidManifest.xml:10:5-32
 		INJECTED from C:\Users\acer\AndroidStudioProjects\Instagram\ParseStarterProject\src\main\AndroidManifest.xml
@@ -22,11 +22,11 @@ ADDED from C:\Users\acer\AndroidStudioProjects\Instagram\ParseStarterProject\src
 	android:name
 		ADDED from C:\Users\acer\AndroidStudioProjects\Instagram\ParseStarterProject\src\main\AndroidManifest.xml:13:22-76
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\acer\AndroidStudioProjects\Instagram\ParseStarterProject\src\main\AndroidManifest.xml:14:5-79
+ADDED from C:\Users\acer\AndroidStudioProjects\Instagram\ParseStarterProject\src\main\AndroidManifest.xml:14:5-80
 	android:name
 		ADDED from C:\Users\acer\AndroidStudioProjects\Instagram\ParseStarterProject\src\main\AndroidManifest.xml:14:22-77
 application
-ADDED from C:\Users\acer\AndroidStudioProjects\Instagram\ParseStarterProject\src\main\AndroidManifest.xml:16:5-39:19
+ADDED from C:\Users\acer\AndroidStudioProjects\Instagram\ParseStarterProject\src\main\AndroidManifest.xml:16:5-40:19
 MERGED from [com.android.support:appcompat-v7:22.2.0] C:\Users\acer\AndroidStudioProjects\Instagram\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:22.2.0] C:\Users\acer\AndroidStudioProjects\Instagram\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha7] C:\Users\acer\AndroidStudioProjects\Instagram\ParseStarterProject\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.0.0-alpha7\AndroidManifest.xml:9:5-20
@@ -69,9 +69,13 @@ ADDED from C:\Users\acer\AndroidStudioProjects\Instagram\ParseStarterProject\src
 	android:name
 		ADDED from C:\Users\acer\AndroidStudioProjects\Instagram\ParseStarterProject\src\main\AndroidManifest.xml:35:27-74
 activity#com.parse.starter.UserListActivity
-ADDED from C:\Users\acer\AndroidStudioProjects\Instagram\ParseStarterProject\src\main\AndroidManifest.xml:38:9-63
+ADDED from C:\Users\acer\AndroidStudioProjects\Instagram\ParseStarterProject\src\main\AndroidManifest.xml:38:9-54
 	android:name
 		ADDED from C:\Users\acer\AndroidStudioProjects\Instagram\ParseStarterProject\src\main\AndroidManifest.xml:38:19-51
+activity#com.parse.starter.user_feedActivity
+ADDED from C:\Users\acer\AndroidStudioProjects\Instagram\ParseStarterProject\src\main\AndroidManifest.xml:39:9-64
+	android:name
+		ADDED from C:\Users\acer\AndroidStudioProjects\Instagram\ParseStarterProject\src\main\AndroidManifest.xml:39:19-52
 uses-sdk
 INJECTED from C:\Users\acer\AndroidStudioProjects\Instagram\ParseStarterProject\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:22.2.0] C:\Users\acer\AndroidStudioProjects\Instagram\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\AndroidManifest.xml:20:5-43

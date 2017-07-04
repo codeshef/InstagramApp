@@ -43,6 +43,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.parse.starter.UserListActivity" />
+        <activity android:name="com.parse.starter.user_feedActivity" />
     </application>
 
 </manifest>

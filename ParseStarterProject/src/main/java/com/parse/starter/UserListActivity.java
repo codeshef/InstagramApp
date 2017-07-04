@@ -13,6 +13,8 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
@@ -74,6 +76,12 @@ public class UserListActivity extends AppCompatActivity {
              }else{
                  getPhoto();
              }
+         } else if(item.getItemId() == R.id.LogOut){
+
+             ParseUser.logOut();
+
+             Intent intent = new Intent(getApplicationContext(),MainActivity.class);
+             startActivity(intent);
          }
 
         return super.onOptionsItemSelected(item);
@@ -129,8 +137,22 @@ public class UserListActivity extends AppCompatActivity {
         setContentView(R.layout.activity_user_list);
 
         userListView =(ListView) findViewById(R.id.userListView);
+        setTitle("User Feed");
         userNames =new ArrayList<>();
         arrayAdapter = new ArrayAdapter(this,android.R.layout.simple_list_item_1,userNames);
+
+
+        userListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+                Intent intent  = new Intent(getApplicationContext(),user_feedActivity.class);
+                intent.putExtra("username", userNames.get(position));
+                 startActivity(intent);
+
+            }
+        });
 
         ParseQuery<ParseUser> query =ParseUser.getQuery();
         query.whereNotEqualTo("username",ParseUser.getCurrentUser().getUsername());
